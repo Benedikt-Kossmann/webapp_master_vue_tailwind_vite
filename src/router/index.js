@@ -31,8 +31,8 @@ const routes = [
 ]
 
 const router = createRouter({
-  //history: createWebHistory('/wp-content/themes/custom_theme/dist/'),
-  history: createWebHistory('/wordpress_dev/'), //aufpassen wegen Webserver
+  //history: createWebHistory('/wordpress_dev/'), //aufpassen wegen Webserver - normal ohne
+  history: createWebHistory(), 
   routes
 });
 

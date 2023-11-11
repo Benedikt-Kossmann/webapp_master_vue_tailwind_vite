@@ -30,9 +30,6 @@ const toggleSidebar = () => {
     <div class="py-4 px-3 h-full">
       <ul class="space-y-2">
         <li>
-            <a class="flex items-center p-2 font-bold font-normal text-white rounded-lg bg-yellow-700"> Ich bin responsive</a>
-        </li>
-        <li>
           <a
             @click="router.push('/')"
             class="cursor-pointer flex items-center p-2 text-base font-normal text-white rounded-lg hover:bg-gray-700"
@@ -45,7 +42,7 @@ const toggleSidebar = () => {
             @click="router.push('/page1')"
             class="cursor-pointer flex items-center p-2 text-base font-normal text-white rounded-lg hover:bg-gray-700"
           >
-            <span>VUE Router</span>
+            <span>Beispielseite</span>
           </a>
         </li>
         <li>
