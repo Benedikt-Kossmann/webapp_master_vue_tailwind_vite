@@ -1,3 +1,7 @@
+
+@import './tailwind/table.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+

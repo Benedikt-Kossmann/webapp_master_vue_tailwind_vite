@@ -1,10 +1,12 @@
 <script setup>
+
+import BaseButton  from '@/components/BaseButton.vue';
+
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
 const isSidebarOpen = ref(false); 
-
 
 const toggleSidebar = () => {
   isSidebarOpen.value = !isSidebarOpen.value;
@@ -14,13 +16,7 @@ const toggleSidebar = () => {
 
 <template>
 
-  <button
-    @click="toggleSidebar"
-    class="text-black p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden"
-  >
-    <!-- Platzhalter zum öffnen der Navigaiton -->
-    ->
-  </button>
+  <BaseButton @click="toggleSidebar" class="md:hidden h-10"></BaseButton>
 
   <aside
     :class="isSidebarOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'"
@@ -39,10 +35,10 @@ const toggleSidebar = () => {
         </li>
         <li>
           <a
-            @click="router.push('/page1')"
+            @click="router.push('/axios')"
             class="cursor-pointer flex items-center p-2 text-base font-normal text-white rounded-lg hover:bg-gray-700"
           >
-            <span>Beispielseite</span>
+            <span>API Request</span>
           </a>
         </li>
         <li>

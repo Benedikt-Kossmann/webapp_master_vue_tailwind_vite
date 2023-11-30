@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 import Home from '@/views/Home.vue'
-import Second from '@/views/Second.vue'
+import Axios from '@/views/Axios.vue'
 import UI from '@/views/UI.vue'
 
 const routes = [
@@ -14,15 +14,15 @@ const routes = [
   },
   {
     meta: {
-      title: 'Seite'
+      title: 'Axios'
     },
-    path: '/page1',
-    name: 'page1',
-    component: Second,
+    path: '/axios',
+    name: 'axios',
+    component: Axios,
   },
   {
     meta: {
-      title: 'UI'
+      title: 'UI Elements'
     },
     path: '/ui',
     name: 'ui',
