@@ -1,7 +1,25 @@
-# Vue 3 + Vite
+# webapp_master_vue_tailwind_vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Dieses Projekt ist eine beispielhafte Webanwendung, die mit Vue.js, Vite und Tailwind CSS entwickelt wurde. Es zielt darauf ab, eine schnelle, reaktive Benutzeroberfläche mit einem eleganten Design zu bieten.
 
-## Recommended IDE Setup
+## Funktionen
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Vue.js**:       Ein progressives Framework für den Aufbau von Benutzeroberflächen.
+- **Vite**:         Ein extrem schneller Frontend-Build-Tool.
+- **Tailwind CSS**: Ein Utility-First CSS-Framework für maßgeschneidertes Design.
+
+## Voraussetzungen
+
+Bevor Sie dieses Projekt einrichten, stellen Sie sicher, dass Sie Node.js und npm auf Ihrem Computer installiert haben.
+
+## Einrichtung
+
+Klonen Sie das Projekt und installieren Sie die Abhängigkeiten:
+
+```bash
+git clone https://github.com/Benedikt-Kossmann/webapp_master_vue_tailwind_vite
+cd webapp_master_vue_tailwind_vite
+npm install
+```
+
+
