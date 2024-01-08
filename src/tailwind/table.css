@@ -3,11 +3,11 @@ table {
 }
 
 th {
-  @apply bg-gray-50 text-gray-700 py-3 px-4 text-left text-sm font-semibold uppercase tracking-wider border-b;
+  @apply bg-gray-50 text-gray-900 py-3 px-4 text-left text-sm font-semibold uppercase tracking-wider border-b;
 }
 
 td {
-  @apply px-4 py-2 whitespace-nowrap text-sm text-gray-600 border-b;
+  @apply px-4 py-2 whitespace-nowrap text-sm text-gray-900 border-b;
 }
 
 tbody tr {

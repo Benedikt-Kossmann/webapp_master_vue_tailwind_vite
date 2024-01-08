@@ -7,14 +7,10 @@ import HeaderLayer from '@/components/Navigation/HeaderLayer.vue'
 
 <template>
     <div class="flex h-screen bg-gray-100">
-
       <AsideLayer/>
-
       <div class="flex-1 flex flex-col overflow-hidden">
-
         <HeaderLayer/>
-
-        <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-200">
+        <main class="container mx-auto px-6 py-16">
           <slot></slot>
         </main>
       </div>

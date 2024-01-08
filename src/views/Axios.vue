@@ -3,8 +3,9 @@
 import axios from 'axios';
 import { ref, onMounted } from 'vue';
 
-import Mainlayout from '@/layout/Mainlayout.vue';
-import BaseButton from '@/components/BaseButton.vue';
+import Mainlayout    from '@/layout/Mainlayout.vue';
+import BaseButton    from '@/components/BaseButton.vue';
+import FormContainer from '@/components/FormContainer.vue'
 
 const users = ref([]);
 
@@ -22,13 +23,10 @@ const fetchData = async () => {
 
 <template>
   <Mainlayout>
-    <div class="container mx-auto px-6 py-16 text-center">
+    <FormContainer>
       <h1 class="text-4xl font-bold mb-2 text-gray-800">Beispiel Axios Request</h1>
 
       <BaseButton label="Laden" class="mb-4" @click="fetchData">Daten laden</BaseButton>
-    </div>
-
-    <div class="container mx-auto px-6">
 
       <div class="mt-8">
         <table class="table-auto w-full">
@@ -48,7 +46,7 @@ const fetchData = async () => {
           </tbody>
         </table>
       </div>
-    </div>
+    </FormContainer>
   </Mainlayout>
 </template>
 
